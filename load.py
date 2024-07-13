@@ -11,7 +11,7 @@ import pandas as pd
 import sqlite3
 
 # Load data from CSV file
-data = pd.read_csv('~/my_project/data/houseprice/data.csv')
+data = pd.read_csv('/home/dev/ai-copilot-practice/data.csv')
 
 # Connect to the SQLite database
 conn = sqlite3.connect('realestate.db')
